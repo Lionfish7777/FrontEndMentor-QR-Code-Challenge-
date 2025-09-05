@@ -1,0 +1,66 @@
+/*--------- Different Color Variables ----*/
+:root {
+   --white: hsl (0, 0, 100%);
+   --slate-300: hsl(212, 45%, 89%);
+   --slate-500: hsl(216, 15%, 48%);
+   --slate-900: hsl(218, 44%, 22%);
+
+}
+/*----------Base Reset + Layout-----------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;     
+}
+
+body {
+    font-family: 'Outfit' , sans-serif;
+    font-size: 15px;
+    background-color: var(--slate-300); 
+    color: var(--slate-500); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+/*---------- QR-Container ----------------*/
+.qr-container {
+   background-color: var(--white); 
+   border-radius: 20px;
+   padding: 1.5rem;
+   width: 320px;
+   text-align: center; 
+
+}
+
+/*----------- QR-Image Styling --------------------*/
+.qr-container img {
+   width: 100%;
+   border-radius: 12px;
+   margin-bottom: 1rem;
+
+}
+
+/*------------ Headings + Text ----------*/
+
+.qr-container h1 {
+   color: var(--slate-900);
+   font-weight: 700;
+   font-size: 1.2rem;
+   margin-bottom: 0.75rem;
+
+}
+
+.qr-container p {
+   font-weight: 400;
+   color: var(--slate-500);
+   line-height: 1.4;
+   padding: 0 0.5rem;
+
+}
+/*------------- Attribution -------------*/
+.attribution {
+   margin-top: 1rem;
+}
